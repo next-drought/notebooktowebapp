@@ -8,10 +8,10 @@ from folium.plugins import Draw
 st.title("Vector Data Editor")
 
 # Default file path
-default_file_path = "./nyc_buildings.geojson"
+default_file_path = "./nyc_roads.geojson"
 
 # Option to choose whether to load the default file or upload a new one
-use_default = st.checkbox("Load default file (nyc_buildings.geojson)", value=True)
+use_default = st.checkbox("Load default file (nyc_roads.geojson)", value=True)
 
 if use_default:
     # Load the vector data from the default file path
